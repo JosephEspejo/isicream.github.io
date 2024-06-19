@@ -1,0 +1,47 @@
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titulohelado {
+    font-size: 2em;
+    width: 300px;
+    height: 180px;
+    padding-top: 2px;
+    align-items: center;
+    text-align: center;
+}
+
+#heladofoto {
+    width: 400px;
+    height: 450px;
+    border: 6px solid violet;
+    padding: auto;
+}
+
+#CONTENIDO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 2%;
+    background-color: #fff1a3;
+}
+
+body {
+    background-color: #fff1a3;
+}
+#contadorContainer{
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    border: 6px solid violet;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+

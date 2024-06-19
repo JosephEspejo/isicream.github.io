@@ -1,0 +1,83 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+#imagenesContenedor{
+display: flex;
+justify-content: space-between;
+}
+
+#plantilla {
+    background-color: #e795b1;
+}
+
+#plantilla img {
+    width: 180px;
+    padding-left: 10px;
+}
+
+#plantilla img:hover {
+    transition: 100ms ease-in-out;
+    transform: scale(1.1);
+}
+
+#pestañas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+
+.pestañasOpciones {
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.pestañasOpciones:hover {
+    transition: 50ms linear;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+#pestañasOpcionesProductos {
+    background-color: #784a31;
+    color: white;
+}
+
+#pestañasOpcionesNovedades {
+    background-color: #ffc5d9;
+}
+
+#pestañasOpcionesOfertas {
+    background-color: #c2f2d0;
+}
+
+#pestañasOpcionesEnvios {
+    background-color: #fdf5c9;
+}
+
+#pestañasOpcionesSobreNosotros {
+    background-color: #ffcb85;
+}
+
+.botones {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}

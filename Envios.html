@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envios</title>
+    <link rel="stylesheet" href="CabezeraEstilos.css">
+    <link rel="stylesheet" href="enviosEstilos.css">
+    <link rel="stylesheet" href="PieDePaginaEstilos.css">
+
+    <style>
+        .error-message {
+            color: red;
+        }
+    </style>.
+</head>
+
+<body>
+    <div id="plantilla">
+        <div id="imagenesContenedor">
+            <div>
+                <a href="index.html"><img src="logoHelaos_sin_Fondo.png" alt="" id="imagenLogo"></a>
+            </div>
+            <div>
+                <a href="carrito.html"><img src="https://cdn-icons-png.flaticon.com/512/8146/8146003.png" alt=""
+                        id="imagenCarrito"></a>
+            </div>
+        </div>
+        <div id="pestañas">
+            <div class="pestañasOpciones" id="pestañasOpcionesProductos"><a href="productos.html" class="botones"
+                    id="colorBlanco">Productos</a></div>
+            <div class="pestañasOpciones" id="pestañasOpcionesNovedades"><a href="novedades.html"
+                    class="botones">Novedades</a></div>
+            <div class="pestañasOpciones" id="pestañasOpcionesOfertas"><a href="ofertas.html"
+                    class="botones">Ofertas</a></div>
+            <div class="pestañasOpciones" id="pestañasOpcionesEnvios"><a href="Envios.html" class="botones">Envios</a>
+            </div>
+            <div class="pestañasOpciones" id="pestañasOpcionesSobreNosotros"><a href="SobreNosotros.html"
+                    class="botones">Sobre
+                    Nosotros</a></div>
+        </div>
+    </div>
+    <div id="formulario">
+        <h1>Información para el envío</h1>
+
+        <form id="formulario-envio" action="#" onsubmit="return validarFormulario()">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo <span style="color: red;">*</span></label>
+                <div>
+                    <input type="text" id="nombre" name="first-name" placeholder="Nombre">
+                    <input type="text" id="last-name" name="last-name" placeholder="Apellido">
+                </div>
+                <span id="nombre-error" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección <span style="color: red;">*</span></label>
+                <input type="text" id="direccion" name="street-address" placeholder="Calle">
+                <input type="text" id="distrito" name="distrito" placeholder="Distrito">
+                <div>
+                    <input type="text" id="zona" name="zona" placeholder="Zona">
+                    <input type="text" id="provincia" name="provincia" placeholder="Provincia">
+                </div>
+                <span id="direccion-error" class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de teléfono celular<span style="color: red;">*</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu número celular"
+                    oninput="validarTelefono()">
+                <span id="telefono-error" class="error-message"></span>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div id="redes">
+        <h4 id="redes_titulo">Nuestras Redes Sociales</h4>
+        <a href="https://x.com/?lang=es" target="_blank"><img class="icono"
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitter-icon.png"
+                alt=""></a>
+        <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank"><img class="icono" src="https://cdn-icons-png.flaticon.com/256/59/59439.png"
+                alt=""></a>
+        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fypfb_corporacion%2F&is_from_rle" target="_blank"><img class="icono"
+                src="https://pixsector.com/cache/200e7bcc/av16efeffeed4418c90c1.png" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank"><img class="icono"
+                src="https://cdn.icon-icons.com/icons2/509/PNG/512/YouTube_icon-icons.com_49934.png" alt=""></a>
+
+    </div>
+    <br>
+    <br>
+    <div id="pie_pagina">
+        <div>
+            <p>Av. 16 de Julio esq. Calle Reyes Ortiz y C. Bravo</p>
+        </div>
+        <div>
+            <p>Telf. +591-2 217 6300 </p>
+        </div>
+        <div>
+            <p>Casilla Postal: 401</p>
+        </div>
+        <div>
+            <p>Correo Institucional</p>
+        </div>
+    </div>
+
+    <script src="envioScript.js"></script>
+</body>
+
+</html>

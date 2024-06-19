@@ -1,0 +1,65 @@
+body {
+    background-color: 	#fdf5c9;
+}
+#formulario {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="text"], .form-group input[type="email"], .form-group input[type="tel"] {
+    width: calc(100% - 20px);
+}
+
+.form-group div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-group div input {
+    width: calc(50% - 10px);
+}
+
+.form-group div input:last-child {
+    margin-right: 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,60 @@
+body {
+    background-color: #ffcb85;
+    padding: 0;
+    margin: 0;
+}
+
+  #parte1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+#parte2 {
+    background-color: #c2f2d0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 15px;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
+    margin-right: 0px;
+}
+
+#parte3 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-bottom: 25px;
+    background-color: #ffcb85;
+    
+}
+
+.fotoantigua {
+    border-radius: 35px;
+    width: 900px;
+    margin-right: 75px;
+    margin-top: 25px;
+}
+
+#textohistoria {
+    margin-top: 140px;
+    max-width: 600px;
+    margin-right: 85px;
+    margin-left: 150px;
+}
+
+#parte3 div:last-child {
+    margin-left: 15px;
+    max-width: 600px;
+}
